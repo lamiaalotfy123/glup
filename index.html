@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="import" href="main.js">
+</head>
+
+<body>
+    <input type="text" id="testvalid" placeholder="write your to do" required>
+    <button onclick="Add()" id="testvalid2">Add</button>
+    <div class="alldiv" style="text-align: center;">
+        <div id="div1">TODO</div>
+        <div class="div2" ondrop="allowDrop(event)" ondragover="allowDrag(event)">In Progress </div>
+        <div class="div3" ondrop="allowDrop(event)" ondragover="allowDrag(event)">Done</div>
+    </div>
+
+
+</body>
+
+</html>

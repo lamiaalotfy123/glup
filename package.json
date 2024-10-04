@@ -1,0 +1,19 @@
+{
+  "name": "web-tooling-and-optimization",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-html-minifier-terser": "^7.1.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-terser": "^2.1.0"
+  }
+}
